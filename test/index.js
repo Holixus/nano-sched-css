@@ -71,8 +71,8 @@ test('fine', function (t) {
 	    data = {
 				opts: {},
 				encoding: 'utf8',
-				content: '    ',
-				result: ''
+				content: ' div { width: 0px; }',
+				result: 'div{width:0}'
 			};
 
 	Promise.resolve(log, data)
