@@ -1,0 +1,30 @@
+{
+  "name": "nano-sched-css",
+  "version": "1.0.0",
+  "description": "css processing (like compression) nano-sched plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js",
+    "test-cov": "istanbul cover node_modules/tape/bin/tape -- test/*.js",
+    "test-travis": "istanbul cover node_modules/tape/bin/tape --report lcovonly -- test/*.js"
+  },
+  "dependencies": {
+    "nano-csspack": "1"
+  },
+  "devDependencies": {
+    "nano-promise": "1",
+    "tape": "4",
+    "istanbul": "0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Holixus/nano-sched-css.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Antonov <me@holix.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Holixus/nano-sched-css/issues"
+  },
+  "homepage": "https://github.com/Holixus/nano-sched-css#readme"
+}
